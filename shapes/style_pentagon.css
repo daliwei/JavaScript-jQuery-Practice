@@ -1,0 +1,29 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+    position: relative;
+     width: 54px;
+     border-width: 50px 18px 0;
+     border-style: solid;
+     border-color: #0B5CC8 transparent;
+ }
+
+#box:before {
+     content: "";
+     position: absolute;
+     height: 0px;
+     width: 0px;
+     top: -85px;
+     left: -18px;
+     border-width: 0 45px 35px;
+     border-style: solid;
+     border-color: transparent transparent #0B5CC8;
+}

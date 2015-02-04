@@ -1,0 +1,40 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background: #E8CAA6;
+    position: relative;
+}
+
+#box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;   
+    border-bottom: 29px solid #E8CAA6;
+    border-left: 29px solid #FFE8E4;
+    border-right: 29px solid #FFE8E4;
+    width: 42px;
+    height: 0;
+}
+
+#box:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+    border-top: 29px solid #E8CAA6;
+    border-left: 29px solid #FFE8E4;
+    border-right: 29px solid #FFE8E4;
+    width: 42px;
+    height: 0;
+}

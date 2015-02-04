@@ -1,0 +1,37 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+    background: #AED2A8;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20eg);
+    transform: rotate(20deg);
+}
+
+#box:before {
+    content: "";
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: #AED2A8;
+    -webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}

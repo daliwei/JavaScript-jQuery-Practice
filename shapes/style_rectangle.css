@@ -1,0 +1,17 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+	width:200px;
+	height:100px;
+	background-color:#FB9D2B;
+	display:none;
+	position:relative;
+}

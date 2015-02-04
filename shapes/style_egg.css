@@ -1,0 +1,19 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+    display:none;
+	position:relative;
+    width: 126px;
+    height: 180px;
+    background-color: #E3A299;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50%   50%  50%  50%  / 60%   60%   40%  40%;
+ }

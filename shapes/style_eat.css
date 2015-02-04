@@ -1,0 +1,24 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+    display:none;
+	position:relative;
+	width: 0px;
+	height: 0px;
+	border-right: 60px solid transparent;
+    border-top: 60px solid #488620;
+    border-left: 60px solid #488620;
+    border-bottom: 60px solid #488620;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+ }

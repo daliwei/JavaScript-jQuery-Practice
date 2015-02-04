@@ -1,0 +1,31 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFE8E4;
+	color:#3D61AB;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#box {
+    border-style: solid;
+    border-color: transparent transparent #DC86A5 transparent;
+    border-width: 0 25px 25px 25px;
+    height: 0;
+    width: 50px;
+    position: relative;
+    margin: 20px 0 50px 0;
+}
+
+#box:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #DC86A5 transparent transparent transparent;
+    border-width: 70px 50px 0 50px;
+}
