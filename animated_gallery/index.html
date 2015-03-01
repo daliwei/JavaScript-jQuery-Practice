@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Gallery</title>    
+		
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		
+		<!-- Add FancyBox CSS -->
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script type="text/javascript" src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+		<header>
+			<div class="container">
+				<nav id="navbar"></nav>
+			</div>
+		</header>
+		
+		<section id="main">
+			<div class="container">
+				<ul id="gallery">
+					<li data-tags="Nature, Color"><a class="fancybox" rel="group" href="img/1big.jpg"><img src="img/1.jpg"></a></li>
+					<li data-tags="Nature, Art"><a class="fancybox" rel="group" href="img/2big.jpg"><img src="img/2.jpg"></a></li>
+					<li data-tags="Art, Color"><a class="fancybox" rel="group" href="img/3big.jpg"><img src="img/3.jpg"></a></li>
+					<li data-tags="Nature, Travel"><a class="fancybox" rel="group" href="img/4big.jpg"><img src="img/4.jpg"></a></li>
+					<li data-tags="Art, Color"><a class="fancybox" rel="group" href="img/5big.jpg"><img src="img/5.jpg"></a></li>
+					<li data-tags="Art, Color"><a class="fancybox" rel="group" href="img/6big.jpg"><img src="img/6.jpg"></a></li>
+					<li data-tags="Travel, Nature"><a class="fancybox" rel="group" href="img/7big.jpg"><img src="img/7.jpg"></a></li>
+					<li data-tags="Travel, Nature"><a class="fancybox" rel="group" href="img/8big.jpg"><img src="img/8.jpg"></a></li>
+					<li data-tags="Travel, Nature"><a class="fancybox" rel="group" href="img/9big.jpg"><img src="img/9.jpg"></a></li>
+					<li data-tags="Travel, Nature"><a class="fancybox" rel="group" href="img/10big.jpg"><img src="img/10.jpg"></a></li>
+					<li data-tags="Nature, Art"><a class="fancybox" rel="group" href="img/11big.jpg"><img src="img/11.jpg"></a></li>
+					<li data-tags="Art, Color"><a class="fancybox" rel="group" href="img/12big.jpg"><img src="img/12.jpg"></a></li>
+					<li data-tags="Travel, Art, People"><a class="fancybox" rel="group" href="img/13big.jpg"><img src="img/13.jpg"></a></li>
+					<li data-tags="Nature, Art, Color"><a class="fancybox" rel="group" href="img/14big.jpg"><img src="img/14.jpg"></a></li>
+					<li data-tags="Nature, Travel"><a class="fancybox" rel="group" href="img/15big.jpg"><img src="img/15.jpg"></a></li>
+					<li data-tags="Nature, Travel, People, Color"><a class="fancybox" rel="group" href="img/16big.jpg"><img src="img/16.jpg"></a></li>
+					<li data-tags="Nature, Travel, Color"><a class="fancybox" rel="group" href="img/17big.jpg"><img src="img/17.jpg"></a></li>
+					<li data-tags="Nature, Art, Color"><a class="fancybox" rel="group" href="img/18big.jpg"><img src="img/18.jpg"></a></li>
+					<li data-tags="Art"><a class="fancybox" rel="group" href="img/19big.jpg"><img src="img/19.jpg"></a></li>
+					<li data-tags="People, Travel"><a class="fancybox" rel="group" href="img/20big.jpg"><img src="img/20.jpg"></a></li>
+					<li data-tags="People, Travel, Art"><a class="fancybox" rel="group" href="img/21big.jpg"><img src="img/21.jpg"></a></li>
+					<li data-tags="People"><a class="fancybox" rel="group" href="img/22big.jpg"><img src="img/22.jpg"></a></li>
+					<li data-tags="People"><a class="fancybox" rel="group" href="img/23big.jpg"><img src="img/23.jpg"></a></li>			
+					<li data-tags="Nature, Art"><a class="fancybox" rel="group" href="img/24big.jpg"><img src="img/24.jpg"></a></li>	
+					<li data-tags="Nature"><a class="fancybox" rel="group" href="img/25big.jpg"><img src="img/25.jpg"></a></li>
+					<li data-tags="Nature"><a class="fancybox" rel="group" href="img/26big.jpg"><img src="img/26.jpg"></a></li>
+					<li data-tags="Travel, Color"><a class="fancybox" rel="group" href="img/27big.jpg"><img src="img/27.jpg"></a></li>
+					<li data-tags="Nature"><a class="fancybox" rel="group" href="img/28big.jpg"><img src="img/28.jpg"></a></li>
+					<li data-tags="Nature, Art"><a class="fancybox" rel="group" href="img/29big.jpg"><img src="img/29.jpg"></a></li>
+					<li data-tags="Nature"><a class="fancybox" rel="group" href="img/30big.jpg"><img src="img/30.jpg"></a></li>
+					<li data-tags="People"><a class="fancybox" rel="group" href="img/31big.jpg"><img src="img/31.jpg"></a></li>
+					<li data-tags="Nature"><a class="fancybox" rel="group" href="img/32big.jpg"><img src="img/32.jpg"></a></li>
+					<li data-tags="People"><a class="fancybox" rel="group" href="img/33big.jpg"><img src="img/33.jpg"></a></li>
+					<li data-tags="Nature"><a class="fancybox" rel="group" href="img/34big.jpg"><img src="img/34.jpg"></a></li>
+					<li data-tags="People, Travel, Color"><a class="fancybox" rel="group" href="img/35big.jpg"><img src="img/35.jpg"></a></li>
+					<li data-tags="Nature, Travel, People"><a class="fancybox" rel="group" href="img/36big.jpg"><img src="img/36.jpg"></a></li>					
+				</ul>
+			</div>
+			<hr>
+			<footer>
+				<div class="container">
+					<p>Photo Gallery &copy; 2015</p>
+				</div>
+			</footer>
+		</section>
+		
+		<!-- Include JQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Quicksand Plugin -->
+		<script src="js/jquery.quicksand.js"></script>
+		<!-- Fancybox Plugin -->
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<!-- Include Custom JS-->
+		<script src="js/script.js"></script>
+		<script>
+			//Call Fancybox
+			$(document).ready(function(){
+				$(".fancybox").fancybox();
+			});
+		</script>
+    </body>
+</html>s
