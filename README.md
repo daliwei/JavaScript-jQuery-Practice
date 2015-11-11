@@ -1,3 +1,3 @@
 # JavaScript-jQuery-Practice
 
-Interesting pactices using JavaScript and jQuery
+Some interesting pactices using JavaScript and jQuery
